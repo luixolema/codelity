@@ -1,3 +1,5 @@
+package solutions;
+
 public class Lesson1 {
 
     public int BinaryGap(int N){
