@@ -9,11 +9,12 @@ public class Main {
         Lesson3 lesson3 = new Lesson3();
         Lesson4 lesson4 = new Lesson4();
         Lesson5 lesson5 = new Lesson5();
+        Lesson6 lesson6 = new Lesson6();
 
-        int[] a = {1, 1, 8, 1, 8, 1};
-        int[] b = {4, 5, 6};
+        int[] A = {2,3};
+        int[] B = {4, 5, 6};
 
 
-        System.out.println(lesson5.MinAvgTwoSlice(a));
+        System.out.println(lesson6.Triangle(A));
     }
 }
