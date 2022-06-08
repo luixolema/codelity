@@ -1,7 +1,4 @@
-import solutions.Lesson1;
-import solutions.Lesson2;
-import solutions.Lesson3;
-import solutions.Lesson4;
+import solutions.*;
 
 public class Main {
 
@@ -11,10 +8,12 @@ public class Main {
         Lesson2 lesson2 = new Lesson2();
         Lesson3 lesson3 = new Lesson3();
         Lesson4 lesson4 = new Lesson4();
+        Lesson5 lesson5 = new Lesson5();
 
-        int[] a = {3,4,4,6,1,4,4};
-        int[] b = {};
+        int[] a = {1, 1, 8, 1, 8, 1};
+        int[] b = {4, 5, 6};
 
-        System.out.println(lesson4.MaxCounters(5, a));
+
+        System.out.println(lesson5.MinAvgTwoSlice(a));
     }
 }

@@ -1,5 +1,6 @@
 package solutions;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Lesson4 {
@@ -90,5 +91,19 @@ public class Lesson4 {
             }
 
         return counters;
+    }
+
+
+    public int MissingInteger(int[] A){
+        Arrays.sort(A);
+        int missingInteger = 1;
+
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] == missingInteger){
+                missingInteger++;
+            }
+        }
+
+        return missingInteger;
     }
 }
