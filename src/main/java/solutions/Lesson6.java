@@ -1,5 +1,6 @@
 package solutions;
 
+import javax.swing.plaf.SpinnerUI;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
