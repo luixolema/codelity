@@ -11,11 +11,13 @@ public class Main {
         Lesson5 lesson5 = new Lesson5();
         Lesson6 lesson6 = new Lesson6();
         Lesson7 lesson7 = new Lesson7();
+        Lesson8 lesson8 = new Lesson8();
+        Lesson9 lesson9 = new Lesson9();
 
-        int[] A = {8, 8, 5, 7, 9, 8, 7, 4, 8};
-        int[] B = {4, 5, 6};
+        int[] A = {3, 2, -6, 4, 0};
+        int[] B = {4, 4};
 
 
-        System.out.println(lesson7.StoneWall(A));
+        System.out.println(lesson9.MaxSliceSum(A));
     }
 }
