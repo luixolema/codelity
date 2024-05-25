@@ -3,16 +3,16 @@ package solutions;
 public class Lesson9 {
     public int MaxProfit(int[] A) {
         int maxProfit = 0;
-        int min = Integer.MAX_VALUE;
+        int previousValue = Integer.MAX_VALUE;
         for (int stockValue : A) {
-            int profit = stockValue - min;
+            int profit = stockValue - previousValue;
 
             if (profit > maxProfit) {
-                maxProfit = stockValue - min;
+                maxProfit = stockValue - previousValue;
             }
 
-            if (stockValue < min) {
-                min = stockValue;
+            if (stockValue < previousValue) {
+                previousValue = stockValue;
             }
 
         }
