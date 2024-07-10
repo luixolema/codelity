@@ -101,6 +101,8 @@ public class Lesson4 {
         for (int i = 0; i < A.length; i++) {
             if (A[i] == missingInteger){
                 missingInteger++;
+            }else{
+                break;
             }
         }
 
